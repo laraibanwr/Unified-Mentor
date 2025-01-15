@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="show('7')">7</button>
+            <button onclick="show('8')">8</button>
+            <button onclick="show('9')">9</button>
+            <button onclick="show('/')" class="operator-btn">/</button>
+            <button onclick="show('4')">4</button>
+            <button onclick="show('5')">5</button>
+            <button onclick="show('6')">6</button>
+            <button onclick="show('*')" class="operator-btn">*</button>
+            <button onclick="show('1')">1</button>
+            <button onclick="show('2')">2</button>
+            <button onclick="show('3')">3</button>
+            <button onclick="show('-')" class="operator-btn">-</button>
+            <button onclick="show('0')">0</button>
+            <button onclick="show('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="show('+')" class="operator-btn">+</button>
+            <button onclick="popLast()"class="operator-btn">C</button>
+            <button onclick="clearAll()"class="operator-btn">AC</button>
+        </div>
+    </div>
+</body>
+</html>
